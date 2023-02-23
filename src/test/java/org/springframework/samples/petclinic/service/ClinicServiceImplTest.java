@@ -12,6 +12,9 @@ import org.springframework.samples.petclinic.repository.VetRepository;
 import org.springframework.samples.petclinic.repository.VisitRepository;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import java.text.DateFormatSymbols;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
