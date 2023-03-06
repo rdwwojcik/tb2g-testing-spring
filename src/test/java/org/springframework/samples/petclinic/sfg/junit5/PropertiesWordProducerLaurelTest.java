@@ -19,11 +19,6 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringJUnitConfig(classes = PropertiesWordProducerLaurelTest.TestConfig.class)
 class PropertiesWordProducerLaurelTest {
 
-    public record Person(
-            String firstName,
-            String lastName,
-            int age) {}
-
     @Configuration
     @ComponentScan("org.springframework.samples.petclinic.sfg")
     static class TestConfig {

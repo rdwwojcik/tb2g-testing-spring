@@ -331,8 +331,8 @@
                         <Xlint/>
                     </compilerArguments>
                     <verbose>true</verbose>
-                    <source>16</source>
-                    <target>16</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                     <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
